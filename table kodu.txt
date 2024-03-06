@@ -1,0 +1,7 @@
+create table Tbl_Kitaplik(
+KitapID int not null,
+KitapAD varchar(50) not null,
+Yazar varchar(50) not null,
+Tur varchar(50) not null,
+Sayfa varchar(50) not null,
+Durum bit not null)
